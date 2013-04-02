@@ -30,7 +30,7 @@ final class game_t
   
   /* // getter/setter pattern with method
   private function data($a)
-  { return ($a === NULL) ? get_data() : set_data$a(); }
+  { return ($a === NULL) ? get_data() : set_data$(a); }
 
   private function get_data()
   { return $conf_; }
@@ -69,8 +69,8 @@ final class game_t
   {
     echo
     ( '----'.NEW_LINE
-    . 'load'.NEW_LINE)
-    ;
+    . 'load'.NEW_LINE
+    );
     
     $c = file_get_contents(self::data_file);
     
