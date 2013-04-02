@@ -30,6 +30,16 @@ This is the sample codes for students in a php course.
         - operator `+` behavior with array parameters.
         - how to use SQLite3 basically.
 
+## Tips
+
+- want you diff?
+    - `diff 00_file.php 01_sqlite.php`
+    - http://www.mergely.com/
+
+- cannot you run 01_sqlite.php in debian/Ubuntu/Mint?
+    1. `apt-get update`
+    2. `apt-get install php5-cli php5-sqlite sqlite3`
+
 ## License
 
 CC0
