@@ -75,7 +75,7 @@ final class game_t
     echo('table is created.'.NEW_LINE);
   }
   
-  private function __get($k)
+  public function __get($k)
   {
     switch($k)
     {
@@ -86,7 +86,7 @@ final class game_t
     }
   }
 
-  private function __set($k, $v)
+  public function __set($k, $v)
   {
     switch($k)
     {
